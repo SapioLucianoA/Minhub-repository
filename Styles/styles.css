@@ -1,0 +1,168 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+header {
+    border: 0.2rem black solid;
+    width: 95rem;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(22, 0, 47, 0.434);
+    position: sticky;
+    top: 0%;
+}
+body{
+    background-image: url(../images/Wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1  {
+    color: rgb(156, 58, 248);
+    font-size: 7rem;
+   font-family: Helvetica;
+}
+h1 a {
+    text-decoration: none
+}
+.top-web-logo {
+    width: 10rem;
+    height: 10rem;
+}
+nav a {
+    border: 0.1rem rgb(152, 61, 255) solid;
+    color: rgb(255, 0, 234);
+    background-color: aqua;
+    text-decoration: none;
+    display: inline-block;
+
+  }
+  nav a:hover {
+    transform: scale(1.2);
+  }
+  #home-image {
+    width: 95rem;
+    height: 35rem;
+    object-fit: cover ;
+    border: 0.2rem aqua solid;
+    margin-bottom: 4rem;
+
+}
+  h2 {
+    color: rgb(7, 182, 205) ; font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    }
+    h3 {
+        font-size: 3rem;
+        color: aquamarine;
+    }
+.entrada {
+        font-style: italic;   width: 25rem;
+}
+.brushe {
+    height: 30rem;
+    width: 20rem;
+}
+.text-image {
+    display: flex;
+    justify-content: space-around;
+
+}
+p {
+    color: antiquewhite;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-us-images {
+    width: 35rem;
+    height: 30rem;
+    border: 0.2rem aqua solid;
+    margin-bottom: 2rem ;
+    display: inline-block;
+}
+.image-column {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    height: 100rem;
+}
+.p-a-u {
+    width: 35rem;
+    margin-left: 3rem;
+}
+
+.text-column  {
+    display: flex;
+    flex-direction: column;
+   width: 35;
+   height: 100rem;
+   justify-content: space-around;
+}
+.two-columns {
+        display: flex;
+        flex-direction: row;      
+}
+
+#image5 {
+
+    width: 45rem;
+    height: 40rem;
+    object-fit: cover;
+    border: 0.2rem aqua solid
+}
+.contact-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mail {
+    font-size: 2rem;
+    color: whitesmoke;
+    font-style: italic;
+}
+#email-logo{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: 0.1rem aqua solid
+}
+.phone{
+    display: inline-block;
+    font-size: 2rem;
+    color: whitesmoke;
+    font-style: italic;
+}
+#wpp-logo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: 0.1rem aqua solid
+}
+.div-mail {
+    display: flex;
+    flex-direction: row ;
+     
+}
+.div-phone {
+    display: flex;
+    flex-direction: row;
+}
+.email-phone {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 3rem;
+}
+
+
+
