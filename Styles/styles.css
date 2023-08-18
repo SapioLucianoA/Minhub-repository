@@ -5,9 +5,8 @@
 }
 
 header {
-    border: 0.2rem black solid;
     width: 85.35rem;
-    height: 10rem;
+    height: 11.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +29,7 @@ h1  {
 h1 a {
     text-decoration: none
 }
-.top-web-logo {
+.header-logo {
     width: 10rem;
     height: 10rem;
 }
@@ -39,8 +38,11 @@ nav a {
     color: rgb(255, 0, 234);
     background-color: aqua;
     text-decoration: none;
-    display: inline-block;
-
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   nav a:hover {
     transform: scale(1.2);
@@ -61,17 +63,21 @@ nav a {
     h3 {
         font-size: 3rem;
         color: aquamarine;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-.entrada {
-        font-style: italic;   width: 25rem;
+.main-p {
+        font-style: italic;   
+        width: 25rem;
+
 }
-.brushe {
+.image-of-brushes {
     height: 30rem;
     width: 20rem;
 }
-.text-image {
+.text-image-flexbox {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10rem;
 
 }
 p {
@@ -79,7 +85,7 @@ p {
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
 }
-.h-column {
+.tittle-column {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,7 +97,7 @@ p {
     height: 30rem;
     border: 0.2rem aqua solid;
     margin-bottom: 2rem ;
-    display: inline-block;
+    margin-left: 3rem;
 }
 .image-column {
     display: flex;
@@ -99,9 +105,11 @@ p {
     width: 35rem;
     height: 100rem;
 }
-.p-a-u {
+.about-us-text {
     width: 35rem;
-    margin-left: 3rem;
+    margin-top: -3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 .text-column  {
@@ -111,12 +119,13 @@ p {
    height: 100rem;
    justify-content: space-around;
 }
-.two-columns {
-        display: flex;
-        flex-direction: row;      
+.aboutus-column {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;     
 }
-
-#image5 {
+/* Contact*/
+#Woman-painting {
 
     width: 45rem;
     height: 40rem;
@@ -140,7 +149,7 @@ p {
     border: 0.1rem aqua solid
 }
 .phone{
-    display: inline-block;
+
     font-size: 2rem;
     color: whitesmoke;
     font-style: italic;
@@ -187,43 +196,82 @@ p {
     height: 4rem;
     width: 7rem;
 }
+table {
+    border-collapse: collapse;
+}
 
 /* Tips */
-.tips-c {
+.columna-list-image {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
 }
-
-.list-c {
-    display: flex;
-    flex-direction: column;
-    height: 33rem;
-    width: 30rem;
-}
-.image-c {
+.Tips-images-column {
     display: flex;
     flex-direction: column;
     height: 70rem;
     width:  30rem;
-}
-.listTip{
-    color: antiquewhite;
-    font-size: 2rem;
-    display: inline-block;
-     margin-left: -5rem;
-    margin-top: 12rem;
 }
 .imgTip {
     width: 30rem;
     height: 30rem;
     margin-left: 1rem;
     margin-top: 3rem;
-    display: inline-block;
 }
-main div ol li {
+.div-list {
+    display: flex;
+}
+.List-benefistandtips{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: antiquewhite;
+    font-size: 2rem;
+     margin-left: -5rem;
+    margin-top: 3rem;
+}
+
+main ol li {
     margin-left: 4rem;
 }
+/* Raffle*/
+.raffle-h3 {
+    font-size: 2rem;
+}
+h4 {
+    color: antiquewhite;
+    font-size: 2rem;
+}
+
+legend {
+    color: whitesmoke;
+    font-size: 1rem;
+
+}
+.box-raffle {
+
+    width: 85.2rem;
+    height: 25rem;
+    margin-top: 3rem;
+    display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+
+
+}
+.formulary {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-around;
+    width: 20rem;
+    height: 20rem;
+
+}
+textarea {
+    width: 20rem;
+}
+
 /*footer*/
 footer {
     width: 85.35;
@@ -234,4 +282,72 @@ footer {
 footer p {
     font-size: 1rem;
     color: rgb(255, 255, 255);
+}
+/* index--  */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    body {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        min-height: 100vh;
+    }
+    header {
+        position: static;
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: center;
+    }
+ h1{
+   display: none;
+ }
+ nav  {
+    flex-direction: column;
+ }
+ .header-logo {
+    height: 3rem;
+    width: 3rem;
+ }
+h2 {
+    font-size: 4rem;
+}
+ #home-image{
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 0rem;
+ }
+ .image-of-brushes {
+    width: 15rem;
+    height: 30rem;
+    transform: rotate(90deg);
+    margin-top: -5rem;
+    align-content: center;
+ }
+ .main-p {
+    font-style: italic;   
+    width: 25rem;
+    margin-top: -5rem;
+}
+ .text-image-flexbox {
+    flex-direction: column-reverse;
+    gap: 0rem;
+    margin-left: 30%;
+    
+}
+/* About Us */
+.tittle-column{
+   width: 100%;
+}
+.aboutus-column {
+    flex-direction: column;
+}
+.image-column{
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    gap: 7rem;
+}
+.text-column {
+    
+}
 }
