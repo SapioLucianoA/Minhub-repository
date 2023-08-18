@@ -268,6 +268,9 @@ legend {
     font-size: 1rem;
 
 }
+label{
+    color: whitesmoke;
+}
 .box-raffle {
 
     width: 85.2rem;
@@ -294,8 +297,7 @@ textarea {
 /* END of Raffle */
 
 
-/* MODO tableta  */
-/* Tableta --> Index + general */
+/* START media Tablet  */
 @media only screen and (min-width: 768px) and (max-width: 1023px){
     body {
         width: 100%;
@@ -402,4 +404,166 @@ margin-left: 2rem;
     gap: 33rem;
     margin-left: 4rem;
 }
+/* Tablet --> Raffle */
+.raffle-h3 {
+    font-size: 1.5rem;
 }
+.box-raffle {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 45rem;
+    align-content: center;
+    justify-content: center;
+}
+.location {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    flex-direction: column;
+}
+}
+/* START media Phone */
+@media only screen and (max-width: 767px){
+        body {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            min-height: 100vh;
+        }
+        header {
+            position: static;
+            width: 100%;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-content: center;
+        }
+     h1{
+       display: none;
+     }
+     nav  {
+        flex-direction: column;
+     }
+     .header-logo {
+        height: 3rem;
+        width: 3rem;
+     }
+    h2 {
+        font-size: 4rem;
+    }
+     #home-image{
+        width: 100%;
+        height: 10rem;
+        margin-bottom: 0rem;
+     }
+     .image-of-brushes {
+        width: 9rem;
+        height: 20rem;
+        transform: rotate(90deg);
+        margin-top: -5rem;
+        align-content: center;
+        margin-left: 30%;
+     }
+     .main-p {
+        font-style: italic;   
+        width: 100%;
+        margin-top: -5rem;
+    }
+     .text-image-flexbox {
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: 0rem;
+
+        
+    }
+    /* Phone --> About Us*/
+    .tittle-column{
+       width: 100%;
+    }
+    .aboutus-column {
+        flex-direction: column;
+    }
+    .image-column{
+        align-items: center;
+        width: 100%;
+        gap: 7rem;
+    }
+    .about-us-images {
+        width: 100%;
+        height: 20rem;
+        margin-left: 0;
+    }
+    .text-column {
+    width: 100%;
+    align-items: center;
+    margin-top: -94rem;
+    justify-content: space-around;
+    margin-left: 0;
+    }
+    .about-us-text {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    /* Phone --> Contact Us */
+    #Woman-painting {
+        width: 100%;
+        height: 20rem;
+    }
+    .contact-p {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .email-phone {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    /* Phone --> More Information */
+    .info-table {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    /* Phone --> Benefist and TIps */
+    
+    .Tips-images-column {
+        width: 100%;
+        align-content: center;
+        gap: 11rem;
+        margin-left: 0%;
+    }
+    .columna-list-image {
+        flex-direction: column; 
+        align-items: center;
+        width: 100%;
+    }
+    .imgTip{
+        width: 100%;
+        margin-left: 0;
+    }
+    .List-benefistandtips{
+        justify-content: space-around;
+        margin-top: -37rem;
+        gap: 33rem;
+        margin-left: 0;
+        font-size: 1.2rem;
+    }
+    /* Phone --> Raffle */
+    .raffle-h3 {
+        font-size: 1.5rem;
+    }
+    .box-raffle {
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 45rem;
+        align-content: center;
+        justify-content: center;
+    }
+    .location {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+    }
+
