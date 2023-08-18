@@ -382,4 +382,24 @@ margin-left: 2rem;
     margin-left: 1rem;
 }
 /* Tablet --> More Information */
+.info-table {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+/* Tablet --> Benefist and TIps */
+
+.Tips-images-column {
+    align-content: center;
+    gap: 10rem;
+}
+.columna-list-image {
+    flex-direction: column; 
+    align-items: center;
+}
+.List-benefistandtips{
+    justify-content: space-around;
+    margin-top: -35rem;
+    gap: 33rem;
+    margin-left: 4rem;
+}
 }
